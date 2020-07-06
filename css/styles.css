@@ -132,7 +132,7 @@ body {
 
 .comand-link-list:hover,
 .comand-link-list:focus {
-  col: var(--accent-color);
+  color: var(--accent-color);
 }
 .client-titel {
   font-weight: 700;
