@@ -1,0 +1,211 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --titel-light-color: #212121;
+  --titel-dark-color: #757575;
+  --backgraoud-color: #ffffff;
+  --backgraoud-color-secondary: #f5f4fa;
+  --backgraoud-color-footer: #2f303a;
+}
+
+body {
+  background-color: var(--backgraoud-color);
+  font-family: var(--main-font);
+  font-size: 14;
+  letter-spacing: 0.03em;
+  color: var(--titel-dark-color);
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: var(se);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+.logo-tittel {
+  color: var(--accent-color);
+}
+
+.navigaion-list-link,
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--titel-light-color);
+}
+.navigaion-list-link:hover,
+.navigaion-list-link:focus,
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link {
+  color: var(--titel-dark-color);
+}
+
+.model-btn {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--backgraoud-color);
+  background-color: var(--accent-color);
+}
+
+.hero-tite {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--backgraoud-color);
+}
+
+.description-titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--titel-light-color);
+}
+.description-titel-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--titel-dark-color);
+}
+
+.work-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--titel-light-color);
+}
+
+.work-titel-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--titel-light-color);
+}
+
+.comand-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17.px;
+  text-align: center;
+  color: var(--titel-light-color);
+}
+
+.comand-titel-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--titel-light-color);
+}
+.comand-titel-name-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  color: var(--titel-dark-color);
+}
+
+.comand-link-list:hover,
+.comand-link-list:focus {
+  col: var(--accent-color);
+}
+.client-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--titel-light-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--backgraoud-color);
+}
+.footer-link-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--backgraoud-color);
+}
+.footer-label-link:hover,
+.footer-label-link:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio.html */
+
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: var(--backgraoud-color-secondary);
+  color: var(--titel-light-color);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--backgraoud-color);
+}
+
+.jobs-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titel-light-color);
+}
+
+.jobs-titel-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--titel-dark-color);
+}
+.jobs-titel-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--backgraoud-color);
+}
