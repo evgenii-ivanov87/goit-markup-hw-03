@@ -28,9 +28,13 @@ body {
   color: var(--titel-dark-color);
 }
 
-h2 {
+h2,
+h3,
+p,
+ul {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 .link {
   text-decoration: none;
@@ -129,7 +133,6 @@ h2 {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 80px;
 }
 
 .hero-titel {
@@ -144,11 +147,19 @@ h2 {
   margin-bottom: 30px;
 }
 
-.description {
-  margin-bottom: 94px;
-}
 .description .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.description-titel-list {
   display: flex;
+  align-items: center;
+}
+
+.description-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .description-list:not(:last-child) {
@@ -174,26 +185,21 @@ h2 {
 
 .description-img {
   background-color: #f5f4fa;
-  /* padding-top: 25px; */
-  /* padding-right: 100px; */
-  /* padding-bottom: 25px; */
-  /* padding-left: 100px; */
   border-radius: 4px;
   margin-bottom: 55px;
 }
 
-.work{
-  mar
-}
 .work .container {
-  display: flex;
+  padding-bottom: 94px;
 }
-
 .work-list:not(:last-child) {
   margin-right: 30px;
 }
-
+.work-titel-list {
+  display: flex;
+}
 .work-titel {
+  flex-grow: 1;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -211,12 +217,26 @@ h2 {
   color: var(--titel-light-color);
 }
 
+.comand .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.comand .comand-titel-list {
+  display: flex;
+}
+
+.comand-titel-item {
+  margin-right: 30px;
+}
+
 .comand-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17.px;
   text-align: center;
   color: var(--titel-light-color);
+  margin-bottom: 30px;
 }
 
 .comand-titel-name {
@@ -225,19 +245,33 @@ h2 {
   line-height: 1.19;
   text-align: center;
   color: var(--titel-light-color);
+  margin-bottom: 10px;
 }
 .comand-titel-name-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
   color: var(--titel-dark-color);
+  margin-bottom: 16px;
 }
 
 .comand-link-list:hover,
 .comand-link-list:focus {
   color: var(--accent-color);
 }
+.comand-img {
+  margin-bottom: 30px;
+}
+
+.comand-link {
+  display: flex;
+}
+
+.comand-link-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .client-titel {
   font-weight: 700;
   font-size: 36px;
