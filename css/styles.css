@@ -272,12 +272,32 @@ ul {
   margin-right: 10px;
 }
 
+.client .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client .client-item {
+  display: flex;
+}
+
+.client-item-link {
+  margin-right: ;
+}
+
+.client-item-link-list {
+  display: block;
+  width: 170px;
+  border: 2px;
+}
+
 .client-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--titel-light-color);
+  margin-bottom: 50px;
 }
 
 .client-link:hover,
