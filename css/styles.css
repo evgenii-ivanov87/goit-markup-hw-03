@@ -54,7 +54,7 @@ ul {
 }
 
 .logo {
-  font-family: var(se);
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -379,6 +379,11 @@ ul {
 
 /* Portfolio.html */
 
+.jobs.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .main-jobs {
   display: flex;
   flex-wrap: wrap;
@@ -409,15 +414,20 @@ ul {
   text-align: center;
   background-color: var(--backgraoud-color-secondary);
   color: var(--titel-light-color);
-  margin-right: 8px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  /* margin-right: 8px; */
   justify-content: center;
   align-items: center;
   background: #f5f4fa;
   border-radius: 4px;
-  /* padding-top: 6px; */
-  /* padding-right: 22px;
-  padding-bottom: 6px;
-  padding-left: 6px; */
+}
+
+.main-item-list:not(:last-child) {
+  /* background-color: red; */
+  margin-right: 8px;
 }
 
 .main-btn:hover,
